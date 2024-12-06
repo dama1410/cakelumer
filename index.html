@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cake Lumer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Selamat Datang di Cake Lumer!</h1>
+        <p>Kue lembut dan creamy untuk setiap momen spesial</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#tentang">Tentang Kami</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#pesanan">Pesan Sekarang</a></li>
+            <li><a href="#kontak">Hubungi Kami</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="tentang">
+            <h2>Tentang Cake Lumer</h2>
+            <p>Cake Lumer adalah kombinasi sempurna dari kelembutan dan kelezatan creamy. Kami menggunakan bahan berkualitas premium untuk menghadirkan cita rasa terbaik.</p>
+        </section>
+        <section id="menu">
+            <h2>Menu Kami</h2>
+            <div class="cake">
+                <img src="cakecoklat.jpg" alt="Cake Cokelat">
+                <h3>Cake Lumer Cokelat</h3>
+                <p>Kelezatan cokelat yang creamy dengan manis yang pas.</p>
+            </div>
+            <div class="cake">
+                <img src="cakestrawbery.jpg" alt="Cake Stroberi">
+                <h3>Cake Lumer Stroberi</h3>
+                <p>Stroberi segar yang dipadukan dengan krim lembut.</p>
+            </div>
+            <div class="cake">
+                <img src="cakematcha.jpg" alt="Cake Matcha">
+                <h3>Cake Lumer Matcha</h3>
+                <p>Perpaduan sempurna antara keju dan tekstur creamy.</p>
+            </div>
+        </section>
+        <section id="pesanan">
+            <h2>Pesan Sekarang</h2>
+            <form action="" method="POST" class="order-form">
+                <label for="nama">Nama:</label>
+                <input type="text" id="nama" name="nama" placeholder="Masukkan nama Anda" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Masukkan email Anda" required>
+                
+                <label for="telepon">Nomor Telepon:</label>
+                <input type="tel" id="telepon" name="telepon" placeholder="Masukkan nomor telepon Anda" required>
+                
+                <label for="pilihan-kue">Pilih Kue:</label>
+                <select id="pilihan-kue" name="pilihan-kue" required>
+                    <option value="cokelat">Cake Lumer Cokelat</option>
+                    <option value="stroberi">Cake Lumer Stroberi</option>
+                    <option value="matcha">Cake Lumer Matcha</option>
+                </select>
+                
+                <label for="jumlah">Jumlah:</label>
+                <input type="number" id="jumlah" name="jumlah" min="1" placeholder="Masukkan jumlah pesanan" required>
+                
+                <label for="pesan">Pesan Tambahan:</label>
+                <textarea id="pesan" name="pesan" rows="4" placeholder="Tuliskan pesan tambahan"></textarea>
+                
+                <button type="submit">Pesan Sekarang</button>
+            </form>
+        </section>
+        <section id="kontak">
+            <h2>Hubungi Kami</h2>
+            <p>Email: <a href="mailto:aku@cakelumer.com">aku@cakelumer.com</a></p>
+            <p>Telepon: +62 85811051295</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Cake Lumer</p>
+    </footer>
+</body>
+</html>
