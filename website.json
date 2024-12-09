@@ -1,0 +1,15 @@
+{
+  "@context": "http://schema.org", 
+  "@type": "Store",
+  "name": "Cake lumer, semanis senyumanmu",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Jl. Cintakamu No.14",
+    "addressLocality": "Tangerang",
+    "postalCode": "141004",
+    "addressCountry": "ID"
+  },
+  "telephone": "+62-858-11051294",
+  "openingHours": "Mo-Sa 08:00-20:00",
+  "url": "https://dama1410.github.io/cakelumer/"
+}
